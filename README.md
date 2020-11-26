@@ -13,6 +13,10 @@
 - Facilitam na refatoração
 - Estimulam o reaproveitamento do código
 
+## Referências
+
+- https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
+
 ---
 
 ## Single Responsability Principle
@@ -24,6 +28,7 @@
   mais sem testes automatizados)
 - esse princípio não é somente aplicável à classes, mas sim à qualquer instância
   que executa um trecho de código
+- Coloque no nome da função ou do componente tudo que ele está fazendo. Se tiver dificuldades porque ficou algo bizarro, talvez essa entidade tenha responsabilidades demais. Se você estiver no começo do processo, erre bastante, pois esse é o melhor caminho para aprender como dividir responsabilidades. Só se lembre dessa parte para evitar passar por isso novamente porque dá mais trabalho refatorar que separar responsabilidades.
 
 ### Exemplo
 
@@ -119,11 +124,11 @@ class OrderViewer {
 
 ## Open Closed Principle
 
-- Objetos ou entidades devem estar abertos para extensão, mas fechados para modificação;
+- Objetos ou entidades devem estar abertos para extensão, mas fechados para modificação
 - Quando novos comportamentos ou funcionalidades devem ser implementadas à um
-  software, devemos extender e não modificar;
+  software, devemos extender e não modificar
 - Ao alterar uma classe em pleno funcionamento, corremos o risco de implementar
-  bugs em algo que já funcionava;
+  bugs em algo que já funcionava
 
 ### Exemplo
 
